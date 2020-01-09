@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+      <div>
+        <table class="table table-borderless table-dark">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col-sm-6">Cuit: {{data.cuit}}</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="ridge">
+        <h3 style="margin-left: 20px;">Detalle</h3>
+		    {% for hip in data.hipotesis %}  
+        <table class="table table-bordered" style="width: 90%;margin-left: 20px;">
+        <tbody>
+          <tr>
+            <th class="td-Hipo ">Hipotesis:</th>
+            <td>{{hip.id_hipotesis}}</td>
+          </tr>
+          <tr>
+            <th class="td-Hipo ">Descripcion:</th>
+            <td>{{hip.descripcion}}</td>
+          </tr>
+          <tr>
+            <th class="td-Hipo ">Direccion General:</th>
+            <td colspan="2">{{hip.dir_gral}}</td>
+          </tr>
+		      <tr>
+            <th class="td-Hipo ">Codigo Instructivo:</th>
+            <td colspan="2">{{hip.cod_instructivo}}</td>
+          </tr>
+		      <tr>
+            <th class="td-Hipo ">Impuesto:</th>
+            <td colspan="2">{{hip.id_impuesto}}</td>
+          </tr>	
+		      <tr>
+            <th class="td-Hipo ">Tipo Desvio:</th>
+            <td colspan="2">{{hip.tipo_desvio}}</td>
+          </tr>		
+          <tr style="border-style:none; border-top: 0px solid #343a40;">
+            <td >Corridas</td> 
+            <td>
+              {% for cr in hip.corridas %} 
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <th class="td-Hipo ">Id Corrida</th>
+                    <td class="td-detalleCorrida">{{cr.id_corrida}}</td>
+                  </tr>
+                  <tr>
+                    <th class="td-Hipo ">Fecha de la Corrida</th>
+                    <td>{{cr.fecha_corrida}}</td>
+                  </tr>
+                  <tr>
+                    <th class="td-Hipo ">Periodo Desde</th>
+                    <td>{{cr.periodo_desde}}</td>
+                  </tr>
+                  <tr>
+                    <th class="td-Hipo">Periodo Hasta</th>
+                    <td>{{cr.periodo_hasta}}</td>
+                  </tr>     
+                  <tr>
+                    <table class="table table-borderless table-dark">
+                      <thead class="thead-dark">
+                          <th scope="col-sm-6">Evidencia del Caso</th>                        
+                      </thead>
+                      <tbody>                        
+                        <tr>
+                         <table style="width: 100%;margin-top: -14px;">
+                           <tbody>
+                            {% for ec in cr.evidencia_caso %} 
+                            <tr>
+                              <th >Periodo Desde</th>
+                              <td>{{cr.periodo_desde}}</td>
+                            </tr>
+                            {% endfor %} 
+                           </tbody>
+                         </table>
+                        </tr>
+                      </tbody>                      
+                    </table>
+                  </tr>  
+                </tbody>
+              </table>
+              {% endfor %}  
+            </td>
+                         
+              
+          </tr>
+        </tbody>
+      </table>
+      {% endfor %}  
+      </div>
+    </div>
+{% endblock %}

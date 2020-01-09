@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+    fisca-data-profile-api:
+        image: fisca-data-profile-api:latest
+        container_name: fisca-data-profile-api
+        network_mode: host

@@ -1,0 +1,1747 @@
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 16:13:06] "GET /profile/api/contribuyente/20326394328/123456 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 16:26:51] "GET /healthcheck HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 16:26:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 16:27:06] "GET /environment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 16:27:51] "GET /profile/api/healthcheck HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 16:28:27] "GET /profile/api/v1/healthcheck HTTP/1.1" 200 -
+WARNING:elasticsearch:GET http://11.0.0.10:9200/perfil360/_search?filter_path=hits.hits._source [status:N/A request:10.011s]
+Traceback (most recent call last):
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib64/python3.7/http/client.py", line 1241, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1287, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1236, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1025, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python3.7/http/client.py", line 965, in send
+    self.connect()
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/home/mestevez/.local/share/virtualenvs/fisca-data-profile-api-vsbpF7MS/lib/python3.7/site-packages/urllib3/connection.py", line 164, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7fa7848d9e80>, 'Connection to 11.0.0.10 timed out. (connect timeout=10)')
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:41] "GET /profile/api/v1/test HTTP/1.1" 308 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:41] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/js/jquery-1.8.1-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/css/bootstrap-tweaks.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/css/prettify.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/css/default.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/js/prettify-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/js/default.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:50:42] "GET /flask-api/static/img/grid.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:08] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:31] "GET /profile/api/v1/test2 HTTP/1.1" 308 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:31] "GET /profile/api/v1/test2/ HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:34] "GET /profile/api/v1/test/ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:34] "GET /profile/api/v1/test/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:34] "GET /profile/api/v1/test/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:34] "GET /profile/api/v1/test/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:35] "GET /profile/api/v1/test/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:35] "GET /profile/api/v1/test/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2019 17:51:35] "GET /profile/api/v1/test/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:52:43] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:52:46] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:52:54] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:54:38] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:54:56] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:55:54] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:56:31] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:56:36] "GET /profile/api/v1/test HTTP/1.1" 308 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:56:36] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:56:46] "GET /profile/api/v1/test HTTP/1.1" 308 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:56:46] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:56:52] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:57:09] "GET /profile/api/v1/test/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 11:57:15] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 227-519-386
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2020 14:43:42] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/mestevez/Projects/fisca-data-profile-api/elastic/contribuyente.py', reloading
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:19] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:19] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:19] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:19] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:20] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/css/bootstrap-tweaks.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/css/default.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/js/jquery-1.8.1-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/css/prettify.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/js/prettify-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:47] "GET /flask-api/static/js/default.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:48] "GET /flask-api/static/img/grid.png HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:31:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:36:57] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:37:14] "GET /profile/api/v1/contribuyente HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:37:14] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:37:14] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:37:14] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:37:14] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:37:14] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:37:14] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:39:37] "GET /profile/api/v1/contribuyente HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:39:37] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:39:37] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:39:37] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:39:37] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:39:38] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2020 18:39:38] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:19] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:19] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:19] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:19] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:19] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:19] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:25] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/css/prettify.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/css/default.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/js/jquery-1.8.1-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/js/prettify-min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/js/default.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/css/bootstrap-tweaks.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:26] "GET /flask-api/static/img/grid.png HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:38] "GET /profile/api/v1/contribuyente HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:38] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:38] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:38] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:38] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:52:38] "GET /profile/api/v1/contribuyente?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:53:57] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:53:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:53:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:53:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:53:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:53:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:53:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:54:25] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:54:25] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:54:25] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:54:26] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:54:26] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:54:26] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:03] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:03] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:03] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:03] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:03] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:03] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:45] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:45] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:45] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:45] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:45] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:55:45] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:12] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:12] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:12] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:12] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:12] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:12] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:12] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:46] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:46] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:46] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:46] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:46] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:56:47] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:38] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:38] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:38] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:38] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:38] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:38] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:38] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:57] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:57:57] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:59:40] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:59:40] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:59:40] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:59:40] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:59:40] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:59:40] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 15:59:41] "GET /profile/api/v1/contribuyente/154545/4545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:00:52] "GET /profile/api/v1/contribuyente/154545/4545 HTTP/1.1" 404 -
+WARNING:elasticsearch:GET http://10.30.205.66:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.057s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.66:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.62:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.013s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.62:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.84:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.014s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.84:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.66:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.015s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.66:9200> has failed for 2 times in a row, putting on 120 second timeout.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:01:29] "GET /profile/api/v1/contribuyente/20000000093/828 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:01:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:01:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:01:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:01:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:01:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:01:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:elasticsearch:GET http://10.30.205.66:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.011s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.66:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.84:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.013s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.84:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.62:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.011s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.62:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.66:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.013s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.66:9200> has failed for 2 times in a row, putting on 120 second timeout.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:02:53] "GET /profile/api/v1/contribuyente/20000000093/828 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:02:53] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:02:53] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:02:53] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:02:54] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:02:54] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/oracle_util/oracle_util.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:elasticsearch:GET http://10.30.205.66:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.009s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.66:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.62:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.011s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.62:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.84:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.011s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.84:9200> has failed for 1 times in a row, putting on 60 second timeout.
+WARNING:elasticsearch:GET http://10.30.205.66:9200/contribuyente/_search?filter_path=hits.hits._source [status:N/A request:0.010s]
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 238, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/pbonaldy/.local/share/virtualenvs/fisca-data-profile-api-QBEnLIjv/lib/python3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1333, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 305, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 274, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:elasticsearch:Connection <Urllib3HttpConnection: http://10.30.205.66:9200> has failed for 2 times in a row, putting on 120 second timeout.
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:03:29] "GET /profile/api/v1/contribuyente/20000000093/828 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:03:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:03:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:03:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:03:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:03:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 16:03:29] "GET /profile/api/v1/contribuyente/20000000093/828?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 17:47:25] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 17:47:51] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 17:49:31] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2020 17:49:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/test_report.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/css/prettify.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/css/bootstrap-tweaks.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/css/default.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/js/prettify-min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/js/jquery-1.8.1-min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/js/default.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:56] "GET /flask-api/static/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:57] "GET /flask-api/static/img/grid.png HTTP/1.1" 304 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:11:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:09] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:09] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:09] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:09] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:09] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:10] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:10] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/test_report.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:57] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:57] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:57] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:57] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:57] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:57] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:12:57] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:10] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:10] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:10] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:10] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:10] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:10] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:46] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:46] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:46] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:46] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:46] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:46] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:13:47] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:08] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:08] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:08] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:08] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:08] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:08] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:08] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:14:56] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:15:45] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:16:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:16:56] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:17:37] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:18:01] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:18:36] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:19:01] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:19:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:20:06] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:20:28] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:20:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:20:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jan/2020 19:20:44] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 11:30:37] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:28:37] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:28:37] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:28:37] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:28:37] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:28:38] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:28:38] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:28:38] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:30:22] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:30:22] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:30:22] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:30:22] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:30:22] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:30:22] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:30:23] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:33:17] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:33:17] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:33:17] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:33:17] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:33:17] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:33:18] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:33:18] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:36] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:51] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:51] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:51] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:51] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:51] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:51] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:39:51] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:40:32] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:40:32] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:57:43] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:57:47] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:57:59] "GET /profile/api/v1/test HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/test_report.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:58:36] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:58:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:58:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:58:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:58:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:58:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:58:36] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/test_report.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/routes/test_report.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:59:56] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:59:56] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:59:56] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:59:56] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:59:56] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:59:56] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 12:59:56] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:07:13] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:07:13] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:07:13] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:07:13] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:07:13] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:07:13] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:10:00] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:10:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:10:19] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:10:19] "GET /profile/api/v1/styles.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:22:04] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:22:04] "GET /profile/api/v1/styles.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:22:05] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:22:05] "GET /profile/api/v1/styles.css HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:24:39] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:24:39] "GET /profile/api/v1/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:24:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:25:10] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:25:10] "GET /profile/api/v1/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:25:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:25:18] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:25:18] "GET /profile/api/v1/styles.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:27:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 13:27:21] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:23:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:23:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:23:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:23:58] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:23:58] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:23:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:24:08] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:24:08] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:24:08] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:24:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:24:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:24:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:25:01] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:25:01] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:25:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:36:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:36:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:36:43] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:39:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:39:44] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:39:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:40:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:40:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:40:40] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:42:20] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:42:38] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:42:58] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:43:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:08] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:16] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:44:30] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:01] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:04] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:04] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:45:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:46:16] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:46:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:46:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:46:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:46:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:46:18] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:24] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:24] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:24] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:52] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:52] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:52] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:52] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:47:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:48:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 14:49:11] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:10:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/home/pbonaldy/Repositorio/fisca-data-profile-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:18:40] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:19:08] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:27:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:27:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:27:43] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:29:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:32:06] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:32:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:32:06] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:33:59] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:33:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:20] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:35] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:34:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:35:37] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:35:37] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:35:37] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:13] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:36] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:36] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:36:50] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:38:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:38:17] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:38:17] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:38:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:38:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:38:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:39:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:39:30] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:39:30] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:40:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:40:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:40:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:40:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:40:55] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:40:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:41:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:41:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:41:12] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:42:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:42:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:42:12] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:43:01] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:43:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:55:40] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:26] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:56:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:57:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:57:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:57:12] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:57:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:57:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:57:42] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:18] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:18] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:18] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:55] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:58:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:59:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:59:15] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:59:15] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:59:38] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:59:38] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 15:59:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:26] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:26] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:27] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:28] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:00:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:01:59] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:01:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:01:59] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:03:06] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:03:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:03:06] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:03:45] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:03:45] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:03:45] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:04:08] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:04:09] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:04:09] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:05:01] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:05:01] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:05:01] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:05:33] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:05:33] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:05:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:07:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:07:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:07:42] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:29:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:29:18] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:29:18] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:30:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:30:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:30:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:31:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:31:17] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:31:17] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:31:19] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:31:59] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:31:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:31:59] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:32:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:32:14] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:32:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:32:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:32:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:32:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:00] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:01] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:48] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:33:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:04] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:12] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:12] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:37] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:37] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:37] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:34:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:35:18] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:35:18] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:35:18] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:36:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:36:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:36:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:37:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:37:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:37:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:43:51] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:43:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:43:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:44:40] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:44:40] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:44:40] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:44:59] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:44:59] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:44:59] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:45:10] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:45:10] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:45:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:45:33] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:45:33] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:45:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:46:33] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:46:33] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:46:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:47:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:47:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:47:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:47:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:47:15] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:47:15] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:48:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:48:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:48:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:48:51] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:48:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:48:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:50:32] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:50:32] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:50:32] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:50:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:50:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:50:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:15] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:15] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:16] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:17] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:17] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:36] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:36] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:51:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:53:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:53:42] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:53:42] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:21] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:54:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:57:41] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:58:27] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:58:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:58:27] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:21] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:21] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:45] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:45] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:45] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:51] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:51] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 16:59:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:00:27] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:00:27] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:00:27] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:00:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:00:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:00:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:05:06] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:05:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:05:06] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:17] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:44] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:44] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:44] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:44] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:44] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:44] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:09:44] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:10:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:10:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:11:04] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:11:04] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:11:04] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:12:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:13:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:13:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:13:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:13:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:13:44] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:13:44] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:14:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:14:39] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:14:58] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:14:58] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:14:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:06] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:06] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:06] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:06] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:06] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:07] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:07] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:31] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:31] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:31] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:39] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:39] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:15:40] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:17:38] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:17:38] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:17:38] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:18:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
