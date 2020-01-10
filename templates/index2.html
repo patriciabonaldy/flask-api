@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+<div>
+    <div class="divTable table table-borderless table-dark">
+        <div class="divTableHeading thead-dark">
+            <div class="divTableRow ">
+                <div class="divTableHead">Cuit: {{data.cuit}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ridge">
+	<h3>Detalle</h3>
+	{% for hip in data.hipotesis %}
+    <div class="divTable"style="margin-left: 3px;">
+        <div class="divTableBody">
+            <div class="divTableRow">
+                <div class="divTableHead">Hipotesis:</div>
+                <div class="divTableCell">{{hip.id_hipotesis}}</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableHead">Descripcion:</div>
+                <div class="divTableCell">{{hip.descripcion}}</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableHead">Direccion General:</div>
+                <div class="divTableCell">{{hip.dir_gral}}</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableHead">Codigo Instructivo:</div>
+                <div class="divTableCell">{{hip.cod_instructivo}}</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableHead">Impuesto:</div>
+                <div class="divTableCell">{{hip.id_impuesto}}</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableHead">Tipo Desvio:</div>
+                <div class="divTableCell">{{hip.tipo_desvio}}</div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell section">Corridas</div>
+                <div class="divTableCell">
+                {% for cr in hip.corridas %}
+                <div class="divTableRow" style="width: 624px;display: inline-block;">
+                    					
+                        <div class="divTable">
+                            <div class="divTableBody">
+                                <div class="divTableRow">
+                                    <div class="divTableHead">Id Corrida</div>
+                                    <div class="divTableCell">{{cr.id_corrida}}</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableHead">Fecha de la Corrida</div>
+                                    <div class="divTableCell">{{cr.fecha_corrida}}</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableHead">Periodo Desde</div>
+                                    <div class="divTableCell">{{cr.periodo_desde}}</div>
+                                </div>
+                                <div class="divTableRow">
+                                    <div class="divTableHead">Periodo Hasta</div>
+                                    <div class="divTableCell">{{cr.periodo_hasta}}</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divTable">
+                            <div class="divTableHeading">
+                                <div class="divTableRow">
+                                    <div class="divTableHead">Evidencia del Caso</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="divTableRow">
+                            <div class="divTable">
+                                <div class="divTableBody">
+                                    <div class="divTableRow" style="width: 580px;display: inline-block;">
+                                        <div class="divTableCell">
+                                            {% for ec in cr.evidencia_caso %} 
+                                            <div class="divTableRow" style="width: 602px;display: inline-block;">
+                                                <div class="divTableHead" style="width: 180px;">Periodo Desde</div>
+                                                <div class="divTableCell" style="width: 330px;">{{cr.periodo_desde}}</div>
+                                            </div>
+                                            {% endfor %} 
+                                        </div>
+                                    </div>
+                                </div>        
+                        </div>
+                    </div>
+                    <br/>	
+                
+                    {% endfor %} 
+                </div> 
+            </div>
+        </div>
+	</div>
+	{% endfor %}  
+</div>
+</div>
+{% endblock %}

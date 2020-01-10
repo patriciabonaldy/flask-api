@@ -81,5 +81,5 @@ class PdfTest:
                                   }]}
 
     def create_pdf(self):
-        template = self.tpl_env.get_template("index.html")        
+        template = self.tpl_env.get_template("index2.html")        
         return template.render(data=self.df)

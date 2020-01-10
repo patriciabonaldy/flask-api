@@ -1745,3 +1745,353 @@ INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:17:38] "GET /static/styles.css HTTP/
 INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:17:38] "GET /favicon.ico HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 17:18:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:24:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:24:49] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:24:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/home/pati/Repositorio/flask-api/report/ficha_contribuyente.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:44:54] "GET /profile/api/v1/test_report HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:44:54] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:44:54] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:44:54] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:44:54] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:44:54] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:44:54] "GET /profile/api/v1/test_report?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:45:57] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:45:57] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:47:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:47:53] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:47:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:11] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:11] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:11] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:12] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /static2/styles.css HTTP/1.1" 404 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:49:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:51:21] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:51:21] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:51:21] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:53:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:53:14] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:53:15] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:53:51] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:53:51] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:53:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:57:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:57:15] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:57:15] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:59:33] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:59:33] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 22:59:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:00] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:00] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:22] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:22] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:23] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:00:24] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:01:20] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:01:20] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:01:20] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:04:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:04:53] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:04:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:05:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:05:53] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:05:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:09:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:09:42] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:09:42] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:36] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:36] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:40] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:40] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:12:40] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:13] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:34] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:34] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:34] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:46] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:46] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:13:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:15:27] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:15:27] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:15:27] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:15:52] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:15:52] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:15:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:16:13] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:16:13] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:16:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:16:51] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:16:51] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:16:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:14] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:14] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:48] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:48] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:49] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:49] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:49] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:17:49] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:01] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:02] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:02] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:02] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:02] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:03] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:51] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:51] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:18:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:19:34] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:19:34] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:19:34] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:20:40] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:20:40] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:20:40] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:24:28] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:24:28] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:24:28] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:25:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:25:29] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:25:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:23] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:23] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:23] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:24] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:24] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:24] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:25] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:25] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:25] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:54] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:56] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:56] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:27:56] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:28:53] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:28:53] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:28:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:39] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:40] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:41] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:41] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:41] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:42] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:58] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:49:59] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:50:00] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:51:47] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:51:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:51:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:51:48] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:51:51] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:28] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:30] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:31] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:31] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:31] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:55] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:56] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:56] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:52:56] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:53:14] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:53:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:53:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:53:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:53:15] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2020 23:58:09] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:04:54] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:06:11] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:06:43] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:07:12] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:08:29] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:08:29] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:08:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:10:18] "GET /profile/api/v1/test_report HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:10:18] "GET /static/styles2.css HTTP/1.1" 200 -
+INFO:app:404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2020 00:10:18] "GET /favicon.ico HTTP/1.1" 404 -
