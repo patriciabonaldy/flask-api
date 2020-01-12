@@ -1,6 +1,11 @@
 # Fisca Data Profile API
 
 ## Development
+https://www.valentinog.com/blog/python-pdf/
+https://www.anomaly.net.au/blog/convert-html-and-css-to-pdfs-using-weasyprint-within-your-python-app/
+https://pbpython.com/pdf-reports.html
+https://pypi.org/project/pdfkit/
+https://www.geeksforgeeks.org/python-convert-html-pdf/
 
 Environment setup:
 ~~~bash
