@@ -155,13 +155,14 @@ class PdfTest:
 
       if os.path.exists(file_html):
         os.remove(file_html)
-        
+
       f= open(file_html,"w+")
       html = self.create_html()
       f.write(html)
       f.close()
       config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
       pdfkit.from_url(file_html, filename, configuration=config)
+      return filename
 
         
    
