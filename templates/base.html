@@ -4,9 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="/static/styles2.css">
+    <style>
+        /* DivTable.com */
+        .answer__letter { display: block; 
+            margin-left: -10px; 
+            margin-right: 0px;
+            padding: 0px;
+            
+        }
+        .container {
+            width: 600px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .ridge {
+            border-style: ridge;
+            border-radius: 5px;
+        }
+
+        .body {
+            margin: 0;
+            margin-bottom: 50px;
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff;
+        }
+        .section{
+            text-align: center;
+        vertical-align: middle;
+        line-height: 90px; 
+        }
+
+        .table {
+            border-collapse: collapse;
+        }
+        user agent stylesheet
+        table {
+            border-collapse: separate;
+            border-spacing: 2px;
+        }
+        .divTable{
+            display: table;
+            width: 100%;
+        }
+        .divTableRow {
+            display: table-row;
+            
+        }
+        .divTableHeading {
+            background-color: #EEE;
+            display: table-header-group;
+        }
+        .divTableCell, .divTableHead {
+            border: 1px solid #999999;
+            display: table-cell;
+            padding: 3px 10px;
+        }
+        .divTableHeading {
+            background-color: #EEE;
+            display: table-header-group;
+            font-weight: bold;
+        }
+        .divTableFoot {
+            background-color: #EEE;
+            display: table-footer-group;
+            font-weight: bold;
+        }
+        .divTableBody {
+            display: table-row-group;
+        }
+
+        .thead-dark{
+            color: #fff;
+            background-color: #343a40;
+            border-color: #454d55;
+        }
+        .table-dark td, .table-dark th, .table-dark thead th {
+            border-color: #454d55;
+        }
+        .table-dark tbody+tbody, .table-dark td, .table-dark th, .table-dark thead th {
+            border-color: #95999c;
+        }
+        .table-borderless tbody+tbody, .table-borderless td, .table-borderless th, .table-borderless thead th {
+            border: 0;
+        }
+        .table thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #343a40;
+        }
+        .table td, .table th {
+            padding: .50rem;
+            vertical-align: top;
+            border-top: 1px solid #343a40;
+        }
+        th {
+            text-align: inherit;
+        }
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
+    </style>    
 </head>
-<body>
+<body class="body">
     {% block content%}
     
     {% endblock %}

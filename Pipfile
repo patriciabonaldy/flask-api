@@ -16,6 +16,8 @@ gunicorn = "*"
 python-dotenv = "*"
 cx-Oracle = "*"
 Jinja2="*"
+wkhtmltopdf="*"
+pdfkit="*"
 
 [requires]
 python_version = "3.7"

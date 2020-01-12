@@ -11,7 +11,13 @@
     </div>
 </div>
 <div class="ridge">
-	<h3>Detalle</h3>
+    <div class="divTable table thead-dark th">
+        <div class="divTableHeading">
+            <div class="divTableRow">
+                <div class="divTableHead">Detalle</div>
+            </div>
+        </div>
+    </div>
 	{% for hip in data.hipotesis %}
     <div class="divTable"style="margin-left: 3px;">
         <div class="divTableBody">
@@ -43,7 +49,7 @@
                 <div class="divTableCell section">Corridas</div>
                 <div class="divTableCell">
                 {% for cr in hip.corridas %}
-                <div class="divTableRow" style="width: 624px;display: inline-block;">
+                <div class="divTableRow" style="width: 424px;display: inline-block;">
                     					
                         <div class="divTable">
                             <div class="divTableBody">
@@ -76,14 +82,22 @@
                         <div class="divTableRow">
                             <div class="divTable">
                                 <div class="divTableBody">
-                                    <div class="divTableRow" style="width: 580px;display: inline-block;">
-                                        <div class="divTableCell">
-                                            {% for ec in cr.evidencia_caso %} 
-                                            <div class="divTableRow" style="width: 602px;display: inline-block;">
-                                                <div class="divTableHead" style="width: 180px;">Periodo Desde</div>
-                                                <div class="divTableCell" style="width: 330px;">{{cr.periodo_desde}}</div>
+                                    <div class="divTableRow" style="width: 380px;display: inline-block;">
+                                        <div class="divTableCell"> 
+                                        {% for key,parent_dict_item in cr.items() %}                                            
+                                            {% for sl in parent_dict_item.select %}
+                                            <div class="divTableRow" style="width: 402px;display: inline-block;">
+                                                <div class="divTableHead" style="width: 100px;">Origen</div>
+                                                <div class="divTableCell" style="width: 180px;">{{parent_dict_item.origen}}</div>
                                             </div>
-                                            {% endfor %} 
+                                            {% for key, value in sl.items() %}
+                                                <div class="divTableRow" style="width: 402px;display: inline-block;">
+                                                    <div class="divTableHead" style="width: 100px;">{{key}}</div>
+                                                    <div class="divTableCell" style="width: 180px;">{{value}}</div>
+                                                </div>
+                                            {% endfor %}   
+                                            {% endfor %}
+                                        {% endfor %}
                                         </div>
                                     </div>
                                 </div>        

@@ -1,6 +1,11 @@
 /* DivTable.com */
+.answer__letter { display: block; 
+    margin-left: -10px; 
+    margin-right: 0px;
+    padding: 0px;
+   }
 .container {
-    width: 800px;
+    width: 600px;
     padding: 20px;
     margin: 20px;
 }
